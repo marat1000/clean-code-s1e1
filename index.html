@@ -6,20 +6,22 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
-<div class="intro">
+<section class="intro">
+  <h1 class="visually-hidden">TODO-list App</h1>
   <img class="intro-img" src="./eisenhower-matrix.jpg" alt="Picture of the Eisenhower matrix">
   <a class="more-info"
        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-</div>
+</section>
 <div class="container">
-  <p id="top-section">
+  <section id="top-section">
+    <h2 class="visually-hidden">Add Item</h2>
     <label class="top-section-title" for="new-task">Add Item</label>
     <div class="task-row-wrapper">
       <input id="new-task" class="input input-text task" type="text">
       <button class="button">Add</button>
     </div>
-  </p>
-  <h3 class="title">Todo</h3>
+  </section>
+  <h2 class="title">Todo</h2>
   <ul class="list" id="incompleted-tasks">
     <li class="list-item">
       <input class="input input-checkbox" type="checkbox">
@@ -40,7 +42,7 @@
       </button>
     </li>
   </ul>
-  <h3 class="title">Completed</h3>
+  <h2 class="title">Completed</h2>
   <ul class="list" id="completed-tasks">
     <li class="list-item">
       <input class="input input-checkbox" type="checkbox" checked>
